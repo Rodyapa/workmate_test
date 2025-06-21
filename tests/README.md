@@ -6,7 +6,6 @@ tests/
 ├── test_csv_reader.py         # Unit тесты для класса CSVReader
 ├── test_main_integration.py   # Интеграционные тесты для main.py
 ├── test_edge_cases.py         # Тесты граничных случаев
-├── requirements-test.txt      # Зависимости для тестирования
 └── README.md                  # Этот файл
 ```
 
@@ -14,7 +13,7 @@ tests/
 
 ### Установка зависимостей
 ```bash
-pip install -r tests/requirements-test.txt
+pip install -r requirements.txt
 ```
 
 ### Запуск всех тестов

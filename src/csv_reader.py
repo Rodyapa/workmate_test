@@ -129,11 +129,14 @@ class CSVReader:
             exit(1)
 
         # Агрегируем данные
+        if not col_values:
+            return [["Нет данных"]]
+        
         if value == "min":
-            return [[min(col_values)]]
+            return [[str(min(col_values))]]
         elif value == "avg":
-            return [[round(sum(col_values) / len(col_values), 2)]]
+            return [[str(round(sum(col_values) / len(col_values), 2))]]
         elif value == "max":
-            return [[max(col_values)]]
+            return [[str(max(col_values))]]
 
         return data

@@ -1,12 +1,10 @@
+import pytest
 import sys
 from pathlib import Path
 
-import pytest
-
-# Добавляем путь к корневой директории проекта
-code_path = Path(__file__).parent.parent
+# Добавляем путь к папке src
+code_path = Path(__file__).parent.parent / "src"
 sys.path.insert(0, str(code_path))
-
 
 # Настройка pytest
 def pytest_configure(config):
@@ -31,5 +29,5 @@ def test_data_dir():
 
 @pytest.fixture(scope="session")
 def code_dir():
-    """Возвращает путь к корневой директории проекта"""
-    return Path(__file__).parent.parent
+    """Возвращает путь к папке src"""
+    return Path(__file__).parent.parent / "src"

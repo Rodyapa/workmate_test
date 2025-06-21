@@ -1,16 +1,15 @@
+import pytest
+import tempfile
 import csv
 import os
 import sys
-import tempfile
 from pathlib import Path
+
+# Добавляем путь к папке src
+sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+
+from src.csv_reader import CSVReader
 from unittest.mock import MagicMock
-
-import pytest
-from csv_reader import CSVReader
-
-# Добавляем путь к корневой директории проекта
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
 
 class TestEdgeCases:
     """Тесты граничных случаев и обработки ошибок"""
@@ -120,13 +119,13 @@ class TestEdgeCases:
             reader.data = [row for row in reader_csv]
 
         result = reader._aggregate("price=min", reader.data)
-        assert result == [[100.0]]
+        assert result == [['100.0']]
 
         result = reader._aggregate("price=max", reader.data)
-        assert result == [[100.0]]
+        assert result == [['100.0']]
 
         result = reader._aggregate("price=avg", reader.data)
-        assert result == [[100.0]]
+        assert result == [['100.0']]
 
     def test_filter_with_spaces_in_column_name(
             self, mixed_data_csv_file, mock_args):
@@ -177,7 +176,7 @@ class TestEdgeCases:
 
         result = reader._aggregate("rating=avg", reader.data)
         expected_avg = round((4.5 + 4.0 + 4.2) / 3, 2)
-        assert result == [[expected_avg]]
+        assert result == [[str(expected_avg)]]
 
     def test_filter_case_sensitive(self, mixed_data_csv_file, mock_args):
         """Тест чувствительности к регистру при фильтрации"""

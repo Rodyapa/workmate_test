@@ -21,7 +21,7 @@ def run_tests():
             sys.executable, "-m", "pytest",
             "tests/",
             "-v",  # подробный вывод
-            "--cov=csv_reader",  # покрытие кода
+            "--cov=src",  # покрытие кода в папке src
             "--cov-report=term-missing",  # показывать непокрытые строки
             "--cov-report=html:tests/coverage_html",  # HTML отчет
             "--tb=short"  # короткий traceback

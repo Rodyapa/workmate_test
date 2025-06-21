@@ -1,0 +1,106 @@
+name,brand,price,rating,storage,color,release_year,is_available
+iPhone 15 Pro,Apple,999,4.9,256,Space Black,2023,true
+iPhone 15,Apple,799,4.8,128,Blue,2023,true
+iPhone 14 Pro,Apple,899,4.7,256,Deep Purple,2022,true
+iPhone 14,Apple,699,4.6,128,Midnight,2022,true
+iPhone 13 Pro,Apple,799,4.5,256,Sierra Blue,2021,false
+iPhone 13,Apple,599,4.4,128,Pink,2021,true
+Galaxy S24 Ultra,Samsung,1199,4.8,512,Titanium Gray,2024,true
+Galaxy S24+,Samsung,999,4.7,256,Onyx Black,2024,true
+Galaxy S24,Samsung,799,4.6,128,Marble Gray,2024,true
+Galaxy S23 Ultra,Samsung,1099,4.7,512,Phantom Black,2023,true
+Galaxy S23+,Samsung,899,4.6,256,Cream,2023,true
+Galaxy S23,Samsung,699,4.5,128,Lavender,2023,false
+Galaxy S22 Ultra,Samsung,999,4.4,256,Burgundy,2022,true
+Galaxy S22+,Samsung,799,4.3,128,White,2022,true
+Galaxy S22,Samsung,599,4.2,128,Green,2022,false
+Pixel 8 Pro,Google,999,4.8,256,Obsidian,2023,true
+Pixel 8,Google,699,4.7,128,Rose,2023,true
+Pixel 7 Pro,Google,899,4.6,256,Hazel,2022,true
+Pixel 7,Google,599,4.5,128,Snow,2022,true
+Pixel 6 Pro,Google,799,4.4,256,Stormy Black,2021,false
+Pixel 6,Google,499,4.3,128,Sorta Seafoam,2021,true
+OnePlus 12,OnePlus,799,4.7,256,Silk Black,2024,true
+OnePlus 11,OnePlus,699,4.6,128,Eternal Green,2023,true
+OnePlus 10 Pro,OnePlus,799,4.5,256,Volcanic Black,2022,true
+OnePlus 10T,OnePlus,649,4.4,128,Moonstone Black,2022,false
+OnePlus 9 Pro,OnePlus,699,4.3,256,Morning Mist,2021,true
+OnePlus 9,OnePlus,549,4.2,128,Arctic Sky,2021,true
+Xiaomi 14 Ultra,Xiaomi,1199,4.8,512,Black,2024,true
+Xiaomi 14 Pro,Xiaomi,999,4.7,256,White,2024,true
+Xiaomi 14,Xiaomi,799,4.6,128,Black,2024,true
+Xiaomi 13 Ultra,Xiaomi,1099,4.7,512,Black,2023,true
+Xiaomi 13 Pro,Xiaomi,899,4.6,256,White,2023,true
+Xiaomi 13,Xiaomi,699,4.5,128,Blue,2023,false
+Xiaomi 12S Ultra,Xiaomi,999,4.4,256,Black,2022,true
+Xiaomi 12 Pro,Xiaomi,799,4.3,128,Blue,2022,true
+Xiaomi 12,Xiaomi,599,4.2,128,Purple,2022,true
+Redmi Note 13 Pro+,Xiaomi,299,4.6,256,Black,2023,true
+Redmi Note 13 Pro,Xiaomi,249,4.5,128,White,2023,true
+Redmi Note 13,Xiaomi,199,4.4,128,Blue,2023,true
+Redmi Note 12 Pro+,Xiaomi,279,4.3,256,Black,2022,true
+Redmi Note 12 Pro,Xiaomi,229,4.2,128,White,2022,false
+Redmi Note 12,Xiaomi,179,4.1,128,Blue,2022,true
+Poco X6 Pro,Xiaomi,349,4.5,256,Black,2024,true
+Poco X6,Xiaomi,299,4.4,128,White,2024,true
+Poco X5 Pro,Xiaomi,299,4.3,256,Black,2023,true
+Poco X5,Xiaomi,249,4.2,128,Blue,2023,true
+Poco X4 Pro,Xiaomi,279,4.1,256,Black,2022,false
+Poco X4,Xiaomi,229,4.0,128,White,2022,true
+Nothing Phone 2,Nothing,599,4.6,256,White,2023,true
+Nothing Phone 1,Nothing,399,4.5,128,Black,2022,true
+Motorola Edge 40,Motorola,449,4.4,256,Black,2023,true
+Motorola Edge 30,Motorola,399,4.3,128,White,2022,true
+Motorola G84,Motorola,299,4.2,128,Blue,2023,true
+Motorola G73,Motorola,249,4.1,128,Black,2023,false
+Motorola G62,Motorola,199,4.0,128,White,2022,true
+Sony Xperia 1 V,Sony,1299,4.7,256,Black,2023,true
+Sony Xperia 5 V,Sony,999,4.6,128,White,2023,true
+Sony Xperia 10 V,Sony,399,4.5,128,Black,2023,true
+Sony Xperia 1 IV,Sony,1199,4.4,256,White,2022,false
+Sony Xperia 5 IV,Sony,899,4.3,128,Black,2022,true
+Sony Xperia 10 IV,Sony,349,4.2,128,White,2022,true
+ASUS ROG Phone 8,ASUS,999,4.8,512,Black,2024,true
+ASUS ROG Phone 7,ASUS,899,4.7,256,White,2023,true
+ASUS ROG Phone 6,ASUS,799,4.6,256,Black,2022,true
+ASUS Zenfone 10,ASUS,699,4.5,256,White,2023,true
+ASUS Zenfone 9,ASUS,599,4.4,128,Black,2022,false
+ASUS Zenfone 8,ASUS,499,4.3,128,White,2021,true
+Huawei P60 Pro,Huawei,1199,4.7,512,Black,2023,true
+Huawei P60,Huawei,999,4.6,256,White,2023,true
+Huawei P50 Pro,Huawei,1099,4.5,512,Black,2022,true
+Huawei P50,Huawei,899,4.4,256,White,2022,false
+Huawei Mate 60 Pro,Huawei,1299,4.8,512,Black,2023,true
+Huawei Mate 60,Huawei,1099,4.7,256,White,2023,true
+Huawei Mate 50 Pro,Huawei,1199,4.6,512,Black,2022,true
+Huawei Mate 50,Huawei,999,4.5,256,White,2022,true
+Oppo Find X7 Ultra,Oppo,1199,4.8,512,Black,2024,true
+Oppo Find X7,Oppo,999,4.7,256,White,2024,true
+Oppo Find X6 Pro,Oppo,1099,4.6,512,Black,2023,true
+Oppo Find X6,Oppo,899,4.5,256,White,2023,false
+Oppo Find X5 Pro,Oppo,999,4.4,512,Black,2022,true
+Oppo Find X5,Oppo,799,4.3,256,White,2022,true
+Oppo Reno 11 Pro,Oppo,499,4.5,256,Black,2023,true
+Oppo Reno 11,Oppo,399,4.4,128,White,2023,true
+Oppo Reno 10 Pro,Oppo,449,4.3,256,Black,2023,true
+Oppo Reno 10,Oppo,349,4.2,128,White,2023,false
+Vivo X100 Pro,Vivo,1199,4.8,512,Black,2023,true
+Vivo X100,Vivo,999,4.7,256,White,2023,true
+Vivo X90 Pro+,Vivo,1099,4.6,512,Black,2022,true
+Vivo X90 Pro,Vivo,899,4.5,256,White,2022,true
+Vivo X90,Vivo,799,4.4,256,Black,2022,false
+Vivo V29 Pro,Vivo,599,4.5,256,White,2023,true
+Vivo V29,Vivo,499,4.4,128,Black,2023,true
+Vivo V27 Pro,Vivo,549,4.3,256,White,2023,true
+Vivo V27,Vivo,449,4.2,128,Black,2023,true
+Realme GT Neo 5,Realme,399,4.5,256,Black,2023,true
+Realme GT Neo 4,Realme,349,4.4,128,White,2023,true
+Realme GT Neo 3,Realme,299,4.3,256,Black,2022,false
+Realme GT Neo 2,Realme,249,4.2,128,White,2022,true
+Realme GT Neo,Realme,199,4.1,128,Black,2021,true
+Realme 11 Pro+,Realme,349,4.4,256,White,2023,true
+Realme 11 Pro,Realme,299,4.3,128,Black,2023,true
+Realme 11,Realme,249,4.2,128,White,2023,true
+Realme 10 Pro+,Realme,319,4.1,256,Black,2022,false
+Realme 10 Pro,Realme,269,4.0,128,White,2022,true
+Realme 10,Realme,219,4.0,128,Black,2022,true 
